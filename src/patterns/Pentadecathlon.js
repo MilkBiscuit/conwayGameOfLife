@@ -1,6 +1,8 @@
-const twoDimensionArray = new Array(10);
-for (let i = 0; i < 10; i++) {
-  twoDimensionArray[i] = new Array(20);
+const MAX_COL = 40;
+const MAX_ROW = 20;
+const twoDimensionArray = new Array(MAX_ROW);
+for (let i = 0; i < MAX_ROW; i++) {
+  twoDimensionArray[i] = new Array(MAX_COL);
   twoDimensionArray[i].fill(0);
 }
 

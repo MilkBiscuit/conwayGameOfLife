@@ -57,7 +57,7 @@ class Game extends React.Component {
     return (
       <Container>
         <Content>
-          <Board20x10
+          <Board40x20
             gridArray={gridArray}
             play={this.state.playPressed}
             nextPressed={this.state.nextPressed}

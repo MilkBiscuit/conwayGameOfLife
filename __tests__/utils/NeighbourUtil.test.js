@@ -14,6 +14,13 @@ for (let i = 0; i < 3; i++) {
 grid3x4[1][1] = 1;
 grid3x4[1][2] = 1;
 
+/**
+  * The grid looks like
+  0 0 0 0
+  0 1 1 0
+  0 0 0 0
+**/
+
 test('is on edge', () => {
   expect(isOnEdge(0, 0, grid3x4)).toBe(EDGE.TOP_LEFT_CORNER);
   expect(isOnEdge(0, 3, grid3x4)).toBe(EDGE.TOP_RIGHT_CORNER);

@@ -2,7 +2,7 @@ import React from 'react';
 import { TouchableOpacity } from 'react-native';
 import { Container, Text, View } from 'native-base';
 import { Actions } from 'react-native-router-flux';
-import { Pentadecathlon } from './patterns';
+import { ReadRleFile } from './patterns';
 
 class Home extends React.Component {
   onQuickStart() {
@@ -10,7 +10,9 @@ class Home extends React.Component {
   }
 
   onPatterns() {
-    Actions.push('game', { grid: Pentadecathlon });
+    ReadRleFile.then(pattern => {
+      Actions.push('game', { grid: pattern });
+    });
   }
 
   onSaved() {

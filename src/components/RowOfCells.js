@@ -13,7 +13,7 @@ const RowOfCells = (props) => {
 
   const leftBorderStyle = () => {
     return {
-      width: 1,
+      width: 0.5,
       height,
       backgroundColor: '#0000007f',
     };

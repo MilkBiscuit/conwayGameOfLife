@@ -30,8 +30,8 @@ class Cell extends React.Component {
       width: height,
       height,
       backgroundColor: bgColor,
-      borderBottomWidth: 1,
-      borderRightWidth: 1,
+      borderBottomWidth: 0.5,
+      borderRightWidth: 0.5,
       borderColor: '#0000007f'
     });
   }
