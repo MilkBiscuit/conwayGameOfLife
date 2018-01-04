@@ -14,7 +14,7 @@ function initGrid() {
   }  
 }
 
-export const ReadPattern = (pattern) => {
+export const ReadPattern = (pattern, x, y) => {
   const regex = /\d*b|\d*o/g;
   const lastLine = pattern;
   const rows = lastLine.split('$');
@@ -42,12 +42,14 @@ export const ReadPattern = (pattern) => {
   initGrid();
 
   // Update whole grid array value
-  let i = 0;
+  const rowOffset = Math.floor((20 - patternRowNum) / 2);
+  const colOffset = Math.floor((40 - y) / 2);
+  let i = rowOffset;
   for (const gridString of gridStrings) {
     const len = gridString.length;
     for (let j = 0; j < len; j++) {
       if (gridString[j] === 'o') {
-        wholeGrid[i][j] = 1;
+        wholeGrid[i][j + colOffset] = 1;
       }
     }
     i++;

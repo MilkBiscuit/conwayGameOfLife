@@ -15,6 +15,13 @@ class Cell extends React.Component {
     this.setState({ selected: nextProps.value });
   }
 
+  shouldComponentUpdate(nextProps, nextState) {
+    if (this.state.selected !== nextState.selected) {
+      return true;
+    }
+    return false;
+  }
+
   onPress() {
     const selected = !this.state.selected;
 

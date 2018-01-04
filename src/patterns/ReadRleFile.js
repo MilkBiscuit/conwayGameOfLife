@@ -2,38 +2,22 @@ import { ReadPattern } from './ReadPattern';
 
 const RNFS = require('react-native-fs');
 
-// const ReadRleFile = new Promise((resolve, reject) => {
-//   // get a list of files and directories in the main bundle
-//   RNFS.readDir(RNFS.MainBundlePath)
-//     .then((results) => {
-//       const rleResults = results.filter(result => result.name.endsWith('.rle'));
-
-//       if (rleResults) {
-//         return RNFS.readFile(rleResults[0].path, 'utf8');
-//       }
-
-//       return 'no file';
-//     })
-//     .then((contents) => {
-//       console.log(contents);
-//       const textByLine = contents.split('\n');
-//       const pattern = ReadPattern(textByLine[textByLine.length - 1]);
-
-//       resolve(pattern);
-//     })
-//     .catch((err) => {
-//       console.log(err.message, err.code);
-//       reject();
-//     });
-// });
-
 function ReadRleFile(path) {
   return new Promise((resolve, reject) => {
     RNFS.readFile(path, 'utf8')
       .then((contents) => {
         console.log(contents);
         const textByLine = contents.split('\n');
-        const pattern = ReadPattern(textByLine[textByLine.length - 1]);
+
+        const info = textByLine[textByLine.length - 2];
+        const regex = /= \d+/g;
+        const array = info.match(regex);
+        const x = array[0].substring(2);
+        const y = array[1].substring(2);
+        console.log('x is ' + x);
+        console.log('y is ' + y);
+
+        const pattern = ReadPattern(textByLine[textByLine.length - 1], 3, 3);
 
         resolve(pattern);
       })
