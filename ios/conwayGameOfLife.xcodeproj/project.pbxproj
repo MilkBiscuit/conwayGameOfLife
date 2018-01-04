@@ -59,8 +59,36 @@
 		C3957AE730EE417A888817FD /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB51E2A81B0D4459A80B691C /* rubicon-icon-font.ttf */; };
 		CBF53A9F1FE9E85A00AC67A1 /* libRNFS.a in Resources */ = {isa = PBXBuildFile; fileRef = CBF53A9A1FE93E5B00AC67A1 /* libRNFS.a */; };
 		CBF53AA01FE9E85A00AC67A1 /* libRNFS.a in Resources */ = {isa = PBXBuildFile; fileRef = CBF53A9C1FE93E5B00AC67A1 /* libRNFS.a */; };
-		CBF53AA21FE9F57C00AC67A1 /* 1beacon.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF53AA11FE9F57C00AC67A1 /* 1beacon.rle */; };
-		CBF8D6C51FFDC4570007BA0A /* 4boats.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8D6A01FFDC4570007BA0A /* 4boats.rle */; };
+		CBF8DD651FFE085F0007BA0A /* Still-aircraftcarrier.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD641FFE085F0007BA0A /* Still-aircraftcarrier.rle */; };
+		CBF8DD831FFE1DE00007BA0A /* Os-toad.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD661FFE1DDC0007BA0A /* Os-toad.rle */; };
+		CBF8DD841FFE1DE00007BA0A /* Os-phoenix1.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD671FFE1DDC0007BA0A /* Os-phoenix1.rle */; };
+		CBF8DD851FFE1DE00007BA0A /* Os-unix.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD681FFE1DDC0007BA0A /* Os-unix.rle */; };
+		CBF8DD861FFE1DE00007BA0A /* Os-octagon2.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD691FFE1DDC0007BA0A /* Os-octagon2.rle */; };
+		CBF8DD871FFE1DE00007BA0A /* Os-123.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6A1FFE1DDC0007BA0A /* Os-123.rle */; };
+		CBF8DD881FFE1DE00007BA0A /* Os-beacon.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6B1FFE1DDC0007BA0A /* Os-beacon.rle */; };
+		CBF8DD891FFE1DE00007BA0A /* Os-tripole.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6C1FFE1DDC0007BA0A /* Os-tripole.rle */; };
+		CBF8DD8A1FFE1DE00007BA0A /* Os-washingmachine.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6D1FFE1DDC0007BA0A /* Os-washingmachine.rle */; };
+		CBF8DD8B1FFE1DE00007BA0A /* Os-achimsp8.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6E1FFE1DDD0007BA0A /* Os-achimsp8.rle */; };
+		CBF8DD8C1FFE1DE00007BA0A /* Os-almosymmetric.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6F1FFE1DDD0007BA0A /* Os-almosymmetric.rle */; };
+		CBF8DD8D1FFE1DE00007BA0A /* Os-bipole.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD701FFE1DDD0007BA0A /* Os-bipole.rle */; };
+		CBF8DD8E1FFE1DE00007BA0A /* Os-twoeaters.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD711FFE1DDD0007BA0A /* Os-twoeaters.rle */; };
+		CBF8DD8F1FFE1DE00007BA0A /* Os-cousins.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD721FFE1DDD0007BA0A /* Os-cousins.rle */; };
+		CBF8DD901FFE1DE00007BA0A /* Os-4boats.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD731FFE1DDD0007BA0A /* Os-4boats.rle */; };
+		CBF8DD911FFE1DE00007BA0A /* Os-whynot.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD741FFE1DDD0007BA0A /* Os-whynot.rle */; };
+		CBF8DD921FFE1DE00007BA0A /* Os-figureeight.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD751FFE1DDD0007BA0A /* Os-figureeight.rle */; };
+		CBF8DD931FFE1DE00007BA0A /* Os-griddleandblocks.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD761FFE1DDE0007BA0A /* Os-griddleandblocks.rle */; };
+		CBF8DD941FFE1DE00007BA0A /* Os-monogram.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD771FFE1DDE0007BA0A /* Os-monogram.rle */; };
+		CBF8DD951FFE1DE00007BA0A /* Os-tumbler.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD781FFE1DDE0007BA0A /* Os-tumbler.rle */; };
+		CBF8DD961FFE1DE00007BA0A /* Os-1beacon.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD791FFE1DDE0007BA0A /* Os-1beacon.rle */; };
+		CBF8DD971FFE1DE00007BA0A /* Os-achimsp4.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD7A1FFE1DDE0007BA0A /* Os-achimsp4.rle */; };
+		CBF8DD981FFE1DE00007BA0A /* Os-scotsp5.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD7B1FFE1DDE0007BA0A /* Os-scotsp5.rle */; };
+		CBF8DD991FFE1DE00007BA0A /* Os-elkiesp5.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD7C1FFE1DDE0007BA0A /* Os-elkiesp5.rle */; };
+		CBF8DD9A1FFE1DE00007BA0A /* Os-jack.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD7D1FFE1DDF0007BA0A /* Os-jack.rle */; };
+		CBF8DD9B1FFE1DE00007BA0A /* Os-5blink.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD7E1FFE1DDF0007BA0A /* Os-5blink.rle */; };
+		CBF8DD9C1FFE1DE00007BA0A /* Os-skewedquad.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD7F1FFE1DDF0007BA0A /* Os-skewedquad.rle */; };
+		CBF8DD9D1FFE1DE00007BA0A /* Os-chacha.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD801FFE1DDF0007BA0A /* Os-chacha.rle */; };
+		CBF8DD9E1FFE1DE00007BA0A /* Os-pentadecathlon.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD811FFE1DDF0007BA0A /* Os-pentadecathlon.rle */; };
+		CBF8DD9F1FFE1DE00007BA0A /* Os-cross.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD821FFE1DE00007BA0A /* Os-cross.rle */; };
 		D6F97EB73FFD452898C21E3B /* libRNFS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 776AAD5E2D7B4A9D8C3D3C24 /* libRNFS.a */; };
 		D85590A9E93C47F3BF1C264E /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1661D152FB4DD8B4BE6AD2 /* Roboto.ttf */; };
 		E0992F0A2D7E4585ADCBF02D /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F4F292C75D42A3BDE8D564 /* Entypo.ttf */; };
@@ -384,8 +412,36 @@
 		BA744295845C49C691CDCA6B /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		C31BA8AF8C2E4F41881AF0DB /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		C4F4F292C75D42A3BDE8D564 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		CBF53AA11FE9F57C00AC67A1 /* 1beacon.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1beacon.rle; sourceTree = "<group>"; };
-		CBF8D6A01FFDC4570007BA0A /* 4boats.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4boats.rle; sourceTree = "<group>"; };
+		CBF8DD641FFE085F0007BA0A /* Still-aircraftcarrier.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Still-aircraftcarrier.rle"; sourceTree = "<group>"; };
+		CBF8DD661FFE1DDC0007BA0A /* Os-toad.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-toad.rle"; sourceTree = "<group>"; };
+		CBF8DD671FFE1DDC0007BA0A /* Os-phoenix1.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-phoenix1.rle"; sourceTree = "<group>"; };
+		CBF8DD681FFE1DDC0007BA0A /* Os-unix.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-unix.rle"; sourceTree = "<group>"; };
+		CBF8DD691FFE1DDC0007BA0A /* Os-octagon2.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-octagon2.rle"; sourceTree = "<group>"; };
+		CBF8DD6A1FFE1DDC0007BA0A /* Os-123.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-123.rle"; sourceTree = "<group>"; };
+		CBF8DD6B1FFE1DDC0007BA0A /* Os-beacon.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-beacon.rle"; sourceTree = "<group>"; };
+		CBF8DD6C1FFE1DDC0007BA0A /* Os-tripole.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-tripole.rle"; sourceTree = "<group>"; };
+		CBF8DD6D1FFE1DDC0007BA0A /* Os-washingmachine.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-washingmachine.rle"; sourceTree = "<group>"; };
+		CBF8DD6E1FFE1DDD0007BA0A /* Os-achimsp8.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-achimsp8.rle"; sourceTree = "<group>"; };
+		CBF8DD6F1FFE1DDD0007BA0A /* Os-almosymmetric.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-almosymmetric.rle"; sourceTree = "<group>"; };
+		CBF8DD701FFE1DDD0007BA0A /* Os-bipole.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-bipole.rle"; sourceTree = "<group>"; };
+		CBF8DD711FFE1DDD0007BA0A /* Os-twoeaters.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-twoeaters.rle"; sourceTree = "<group>"; };
+		CBF8DD721FFE1DDD0007BA0A /* Os-cousins.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-cousins.rle"; sourceTree = "<group>"; };
+		CBF8DD731FFE1DDD0007BA0A /* Os-4boats.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-4boats.rle"; sourceTree = "<group>"; };
+		CBF8DD741FFE1DDD0007BA0A /* Os-whynot.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-whynot.rle"; sourceTree = "<group>"; };
+		CBF8DD751FFE1DDD0007BA0A /* Os-figureeight.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-figureeight.rle"; sourceTree = "<group>"; };
+		CBF8DD761FFE1DDE0007BA0A /* Os-griddleandblocks.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-griddleandblocks.rle"; sourceTree = "<group>"; };
+		CBF8DD771FFE1DDE0007BA0A /* Os-monogram.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-monogram.rle"; sourceTree = "<group>"; };
+		CBF8DD781FFE1DDE0007BA0A /* Os-tumbler.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-tumbler.rle"; sourceTree = "<group>"; };
+		CBF8DD791FFE1DDE0007BA0A /* Os-1beacon.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-1beacon.rle"; sourceTree = "<group>"; };
+		CBF8DD7A1FFE1DDE0007BA0A /* Os-achimsp4.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-achimsp4.rle"; sourceTree = "<group>"; };
+		CBF8DD7B1FFE1DDE0007BA0A /* Os-scotsp5.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-scotsp5.rle"; sourceTree = "<group>"; };
+		CBF8DD7C1FFE1DDE0007BA0A /* Os-elkiesp5.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-elkiesp5.rle"; sourceTree = "<group>"; };
+		CBF8DD7D1FFE1DDF0007BA0A /* Os-jack.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-jack.rle"; sourceTree = "<group>"; };
+		CBF8DD7E1FFE1DDF0007BA0A /* Os-5blink.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-5blink.rle"; sourceTree = "<group>"; };
+		CBF8DD7F1FFE1DDF0007BA0A /* Os-skewedquad.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-skewedquad.rle"; sourceTree = "<group>"; };
+		CBF8DD801FFE1DDF0007BA0A /* Os-chacha.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-chacha.rle"; sourceTree = "<group>"; };
+		CBF8DD811FFE1DDF0007BA0A /* Os-pentadecathlon.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-pentadecathlon.rle"; sourceTree = "<group>"; };
+		CBF8DD821FFE1DE00007BA0A /* Os-cross.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-cross.rle"; sourceTree = "<group>"; };
 		D83096D5787E4888800DF0C8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		DD5FEAFEEFDA4653871D8D54 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		E23B4CEF127F42B1A00B699F /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
@@ -613,8 +669,36 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				CBF53AA11FE9F57C00AC67A1 /* 1beacon.rle */,
-				CBF8D6A01FFDC4570007BA0A /* 4boats.rle */,
+				CBF8DD641FFE085F0007BA0A /* Still-aircraftcarrier.rle */,
+				CBF8DD791FFE1DDE0007BA0A /* Os-1beacon.rle */,
+				CBF8DD731FFE1DDD0007BA0A /* Os-4boats.rle */,
+				CBF8DD7E1FFE1DDF0007BA0A /* Os-5blink.rle */,
+				CBF8DD6A1FFE1DDC0007BA0A /* Os-123.rle */,
+				CBF8DD7A1FFE1DDE0007BA0A /* Os-achimsp4.rle */,
+				CBF8DD6E1FFE1DDD0007BA0A /* Os-achimsp8.rle */,
+				CBF8DD6F1FFE1DDD0007BA0A /* Os-almosymmetric.rle */,
+				CBF8DD6B1FFE1DDC0007BA0A /* Os-beacon.rle */,
+				CBF8DD701FFE1DDD0007BA0A /* Os-bipole.rle */,
+				CBF8DD801FFE1DDF0007BA0A /* Os-chacha.rle */,
+				CBF8DD721FFE1DDD0007BA0A /* Os-cousins.rle */,
+				CBF8DD821FFE1DE00007BA0A /* Os-cross.rle */,
+				CBF8DD7C1FFE1DDE0007BA0A /* Os-elkiesp5.rle */,
+				CBF8DD751FFE1DDD0007BA0A /* Os-figureeight.rle */,
+				CBF8DD761FFE1DDE0007BA0A /* Os-griddleandblocks.rle */,
+				CBF8DD7D1FFE1DDF0007BA0A /* Os-jack.rle */,
+				CBF8DD771FFE1DDE0007BA0A /* Os-monogram.rle */,
+				CBF8DD691FFE1DDC0007BA0A /* Os-octagon2.rle */,
+				CBF8DD811FFE1DDF0007BA0A /* Os-pentadecathlon.rle */,
+				CBF8DD671FFE1DDC0007BA0A /* Os-phoenix1.rle */,
+				CBF8DD7B1FFE1DDE0007BA0A /* Os-scotsp5.rle */,
+				CBF8DD7F1FFE1DDF0007BA0A /* Os-skewedquad.rle */,
+				CBF8DD661FFE1DDC0007BA0A /* Os-toad.rle */,
+				CBF8DD6C1FFE1DDC0007BA0A /* Os-tripole.rle */,
+				CBF8DD781FFE1DDE0007BA0A /* Os-tumbler.rle */,
+				CBF8DD711FFE1DDD0007BA0A /* Os-twoeaters.rle */,
+				CBF8DD681FFE1DDC0007BA0A /* Os-unix.rle */,
+				CBF8DD6D1FFE1DDC0007BA0A /* Os-washingmachine.rle */,
+				CBF8DD741FFE1DDD0007BA0A /* Os-whynot.rle */,
 				13B07FAE1A68108700A75B9A /* conwayGameOfLife */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* conwayGameOfLifeTests */,
@@ -1159,30 +1243,58 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				3B48DCF6B635493197F35D06 /* Entypo.ttf in Resources */,
+				CBF8DD9C1FFE1DE00007BA0A /* Os-skewedquad.rle in Resources */,
+				CBF8DD9D1FFE1DE00007BA0A /* Os-chacha.rle in Resources */,
+				CBF8DD911FFE1DE00007BA0A /* Os-whynot.rle in Resources */,
 				AE92CEA9E22C4AADA8681066 /* EvilIcons.ttf in Resources */,
+				CBF8DD651FFE085F0007BA0A /* Still-aircraftcarrier.rle in Resources */,
+				CBF8DD8A1FFE1DE00007BA0A /* Os-washingmachine.rle in Resources */,
+				CBF8DD941FFE1DE00007BA0A /* Os-monogram.rle in Resources */,
+				CBF8DD921FFE1DE00007BA0A /* Os-figureeight.rle in Resources */,
+				CBF8DD891FFE1DE00007BA0A /* Os-tripole.rle in Resources */,
+				CBF8DD8D1FFE1DE00007BA0A /* Os-bipole.rle in Resources */,
+				CBF8DD931FFE1DE00007BA0A /* Os-griddleandblocks.rle in Resources */,
 				5CD1E2B4A3B64F92B879FB1B /* FontAwesome.ttf in Resources */,
 				238779A4D6964BB7843CD319 /* Foundation.ttf in Resources */,
 				6BEBADD28B8D4F82B944AF0E /* Ionicons.ttf in Resources */,
+				CBF8DD831FFE1DE00007BA0A /* Os-toad.rle in Resources */,
+				CBF8DD901FFE1DE00007BA0A /* Os-4boats.rle in Resources */,
+				CBF8DD8E1FFE1DE00007BA0A /* Os-twoeaters.rle in Resources */,
 				1973F6D07EB4480B89B0F693 /* MaterialIcons.ttf in Resources */,
+				CBF8DD9E1FFE1DE00007BA0A /* Os-pentadecathlon.rle in Resources */,
+				CBF8DD861FFE1DE00007BA0A /* Os-octagon2.rle in Resources */,
 				6FBFC1F27EB74E638C3233CE /* Octicons.ttf in Resources */,
+				CBF8DD961FFE1DE00007BA0A /* Os-1beacon.rle in Resources */,
 				8A6A776606F14662B9607B4B /* Roboto_medium.ttf in Resources */,
+				CBF8DD981FFE1DE00007BA0A /* Os-scotsp5.rle in Resources */,
+				CBF8DD8F1FFE1DE00007BA0A /* Os-cousins.rle in Resources */,
 				D85590A9E93C47F3BF1C264E /* Roboto.ttf in Resources */,
+				CBF8DD841FFE1DE00007BA0A /* Os-phoenix1.rle in Resources */,
+				CBF8DD9B1FFE1DE00007BA0A /* Os-5blink.rle in Resources */,
+				CBF8DD991FFE1DE00007BA0A /* Os-elkiesp5.rle in Resources */,
 				C3957AE730EE417A888817FD /* rubicon-icon-font.ttf in Resources */,
 				36AEF703458245188682E38F /* SimpleLineIcons.ttf in Resources */,
-				CBF53AA21FE9F57C00AC67A1 /* 1beacon.rle in Resources */,
+				CBF8DD9A1FFE1DE00007BA0A /* Os-jack.rle in Resources */,
+				CBF8DD951FFE1DE00007BA0A /* Os-tumbler.rle in Resources */,
 				59C39B4B1F104113968739D4 /* Zocial.ttf in Resources */,
 				E0992F0A2D7E4585ADCBF02D /* Entypo.ttf in Resources */,
+				CBF8DD9F1FFE1DE00007BA0A /* Os-cross.rle in Resources */,
 				9CEDEBBA921A49E5B8024387 /* EvilIcons.ttf in Resources */,
+				CBF8DD971FFE1DE00007BA0A /* Os-achimsp4.rle in Resources */,
+				CBF8DD851FFE1DE00007BA0A /* Os-unix.rle in Resources */,
 				0AB0AFC18A9E4489A96F840A /* Feather.ttf in Resources */,
 				3A48C69912404152BC8623E1 /* FontAwesome.ttf in Resources */,
-				CBF8D6C51FFDC4570007BA0A /* 4boats.rle in Resources */,
 				73E3A9921B19414C8C78A185 /* Foundation.ttf in Resources */,
+				CBF8DD871FFE1DE00007BA0A /* Os-123.rle in Resources */,
 				E755989641BE498D8FCBC3BF /* Ionicons.ttf in Resources */,
 				16DF1FC7BBA745A3B8342E3D /* MaterialCommunityIcons.ttf in Resources */,
 				E255FEFE91994DA78C47EE00 /* MaterialIcons.ttf in Resources */,
 				18A63D8C998847F0B0A7304B /* Octicons.ttf in Resources */,
+				CBF8DD881FFE1DE00007BA0A /* Os-beacon.rle in Resources */,
 				2D240A76EA0348E18591D0D9 /* SimpleLineIcons.ttf in Resources */,
 				3BA3B7659B5643B18A2F9EF7 /* Zocial.ttf in Resources */,
+				CBF8DD8C1FFE1DE00007BA0A /* Os-almosymmetric.rle in Resources */,
+				CBF8DD8B1FFE1DE00007BA0A /* Os-achimsp8.rle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
