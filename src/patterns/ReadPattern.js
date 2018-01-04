@@ -7,14 +7,15 @@ const rowNum = 20;
 const colNum = 40;
 const wholeGrid = new Array(rowNum);
 
-for (let i = 0; i < rowNum; i++) {
-  wholeGrid[i] = new Array(colNum);
-  wholeGrid[i].fill(0);
+function initGrid() {
+  for (let i = 0; i < rowNum; i++) {
+    wholeGrid[i] = new Array(colNum);
+    wholeGrid[i].fill(0);
+  }  
 }
 
 export const ReadPattern = (pattern) => {
   const regex = /\d*b|\d*o/g;
-  // const lastLine = '3bo3b$b3o3b$o5bo$ob5o$bo5b$4bo2b$3b2o!';
   const lastLine = pattern;
   const rows = lastLine.split('$');
   const patternRowNum = rows.length;
@@ -37,6 +38,8 @@ export const ReadPattern = (pattern) => {
     }
     gridStrings[i] = array.join('');
   }
+
+  initGrid();
 
   // Update whole grid array value
   let i = 0;

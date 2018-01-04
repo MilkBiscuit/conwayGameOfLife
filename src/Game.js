@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Content, Footer } from 'native-base';
 import { Actions } from 'react-native-router-flux';
-import { Board20x10, Board40x20, BottomControlPanel } from './components';
+import { Board40x20, BottomControlPanel } from './components';
 
 class Game extends React.Component {
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { TouchableOpacity } from 'react-native';
 import { Container, Text, View } from 'native-base';
 import { Actions } from 'react-native-router-flux';
-import { ReadRleFile } from './patterns';
+import { ReadRleFolder } from './patterns';
 
 class Home extends React.Component {
   onQuickStart() {
@@ -10,8 +10,10 @@ class Home extends React.Component {
   }
 
   onPatterns() {
-    ReadRleFile.then(pattern => {
-      Actions.push('game', { grid: pattern });
+    ReadRleFolder.then(files => {
+      console.log(files);
+
+      Actions.push('patterns', { files });
     });
   }
 
