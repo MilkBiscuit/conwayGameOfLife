@@ -5,9 +5,9 @@ const RNFS = require('react-native-fs');
 function ReadRleFile(path) {
   return new Promise((resolve, reject) => {
     RNFS.readFile(path, 'utf8')
-      .then((contents) => {
-        console.log(contents);
-        const textByLine = contents.split('\n');
+      .then((fileContent) => {
+        const content = fileContent.trim();
+        const textByLine = content.split('\n');
 
         const info = textByLine[textByLine.length - 2];
         const regex = /= \d+/g;
