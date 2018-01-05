@@ -1,4 +1,11 @@
-export function formatPatternName(title) {
+export function formatPatternName(withSuffix) {
+  let title;
+  if (withSuffix.endsWith('.rle')) {
+    title = withSuffix.substr(0, withSuffix.length - 4);
+  } else {
+    title = withSuffix;
+  }
+
   if (title.startsWith('Os-')) {
     return title.substring(3);
   } else if (title.startsWith('Ot-')) {

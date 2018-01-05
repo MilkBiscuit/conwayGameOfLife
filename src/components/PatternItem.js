@@ -19,16 +19,31 @@ class PatternItem extends React.Component {
     title = formatPatternName(title);
 
     return (
-      <ListItem>
-        <TouchableOpacity
-          onPress={this.onItemClick.bind(this)}
+      <TouchableOpacity
+        style={styles.container}
+        onPress={this.onItemClick.bind(this)}
+      >
+        <Text
+          style={styles.text}
         >
-          <Text>{title}</Text>
-        </TouchableOpacity>
-      </ListItem>
+          {title}
+        </Text>
+      </TouchableOpacity>
     );
   }
-
 }
+
+const styles = {
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    height: 30,
+    paddingLeft: 14
+  },
+  text: {
+    fontSize: 16
+  }
+};
 
 export { PatternItem };
