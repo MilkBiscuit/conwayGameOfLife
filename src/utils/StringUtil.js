@@ -11,3 +11,20 @@ export function formatPatternName(title) {
 
   return title;
 }
+
+export function removeLastCharacter(str) {
+  if (str && str.length > 0) {
+    return str.substring(0, str.length - 1);
+  }
+
+  return '';
+}
+
+export function getLastCharacter(str) {
+  if (str && str.length > 0) {
+    return str.substring(str.length - 1, str.length);
+  }
+
+  return '';
+}
+

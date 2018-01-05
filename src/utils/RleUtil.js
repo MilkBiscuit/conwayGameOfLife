@@ -1,10 +1,11 @@
+import {
+  removeLastCharacter,
+  getLastCharacter
+} from './StringUtil';
+
 export const getNumber = (rleUnit) => {
-  let number;
-  if (rleUnit) {
-    const len = rleUnit.length;
-    const numberStr = rleUnit.substring(0, len - 1);
-    number = parseInt(numberStr, 10);
-  }
+  const numberStr = removeLastCharacter(rleUnit);
+  const number = parseInt(numberStr, 10);
 
   if (number) {
     return number;
@@ -14,10 +15,11 @@ export const getNumber = (rleUnit) => {
 };
 
 export const getState = (rleUnit) => {
-  if (rleUnit) {
-    const len = rleUnit.length;
-    return rleUnit.substring(len - 1, len);
-  }
-
-  return '';
+  return getLastCharacter(rleUnit);
 };
+
+export function containsEmptyRowAtEnd(rleUnit) {
+  const regex = /\d*b\d\b|\d*o\d\b/g;
+
+  return regex.test(rleUnit);
+}

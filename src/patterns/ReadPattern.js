@@ -1,6 +1,9 @@
 import {
+  containsEmptyRowAtEnd,
+  getLastCharacter,
   getNumber,
-  getState
+  getState,
+  removeLastCharacter
 } from '../utils';
 
 const rowNum = 20;
@@ -15,18 +18,28 @@ function initGrid() {
 }
 
 export const ReadPattern = (pattern, x, y) => {
-  const regex = /\d*b|\d*o/g;
+  // There might be '6o2$' which contains an empty row
+  // Only consider 1-9 empty rows here
+  // const regex = /\d*b|\d*o/g;
+  const regex = /\d*b\d\b|\d*o\d\b|\d*b|\d*o/g;
   const lastLine = pattern;
   const rows = lastLine.split('$');
   const patternRowNum = rows.length;
-  const gridStrings = new Array(patternRowNum);
+  const gridStrings = new Array(parseInt(y, 10));
 
   // Decode the rle format
-  for (let i = 0; i < patternRowNum; i++) {
+  let gridStringIndex = 0;
+  for (let i = 0; i < patternRowNum; i++, gridStringIndex++) {
+    let emptyLinesNum = 0;
     const row = rows[i];
     const array = row.match(regex);
     for (let j = 0; j < array.length; j++) {
-      const unit = array[j];
+      let unit = array[j];
+      if (containsEmptyRowAtEnd(unit)) {
+        emptyLinesNum = parseInt(getLastCharacter(unit), 10);
+        unit = removeLastCharacter(unit);
+      }
+
       const num = getNumber(unit);
       const state = getState(unit);
       let decoded = '';
@@ -36,14 +49,19 @@ export const ReadPattern = (pattern, x, y) => {
 
       array[j] = decoded;
     }
-    gridStrings[i] = array.join('');
+    gridStrings[gridStringIndex] = array.join('');
+
+    while (emptyLinesNum >= 2) {
+      gridStrings[++gridStringIndex] = '';
+      emptyLinesNum--;
+    }
   }
 
   initGrid();
 
   // Update whole grid array value
-  const rowOffset = Math.floor((20 - patternRowNum) / 2);
-  const colOffset = Math.floor((40 - y) / 2);
+  const rowOffset = Math.floor((20 - y) / 2);
+  const colOffset = Math.floor((40 - x) / 2);
   let i = rowOffset;
   for (const gridString of gridStrings) {
     const len = gridString.length;

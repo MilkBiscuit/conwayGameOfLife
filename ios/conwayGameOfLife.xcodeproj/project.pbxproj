@@ -57,6 +57,7 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		AE92CEA9E22C4AADA8681066 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFCA3DB4F02F4852804287FA /* EvilIcons.ttf */; };
 		C3957AE730EE417A888817FD /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB51E2A81B0D4459A80B691C /* rubicon-icon-font.ttf */; };
+		CB98AB691FFF129F00FF378E /* Os-tripole.rle in Resources */ = {isa = PBXBuildFile; fileRef = CB98AB681FFF129E00FF378E /* Os-tripole.rle */; };
 		CBF53A9F1FE9E85A00AC67A1 /* libRNFS.a in Resources */ = {isa = PBXBuildFile; fileRef = CBF53A9A1FE93E5B00AC67A1 /* libRNFS.a */; };
 		CBF53AA01FE9E85A00AC67A1 /* libRNFS.a in Resources */ = {isa = PBXBuildFile; fileRef = CBF53A9C1FE93E5B00AC67A1 /* libRNFS.a */; };
 		CBF8DD651FFE085F0007BA0A /* Still-aircraftcarrier.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD641FFE085F0007BA0A /* Still-aircraftcarrier.rle */; };
@@ -66,7 +67,6 @@
 		CBF8DD861FFE1DE00007BA0A /* Os-octagon2.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD691FFE1DDC0007BA0A /* Os-octagon2.rle */; };
 		CBF8DD871FFE1DE00007BA0A /* Os-123.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6A1FFE1DDC0007BA0A /* Os-123.rle */; };
 		CBF8DD881FFE1DE00007BA0A /* Os-beacon.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6B1FFE1DDC0007BA0A /* Os-beacon.rle */; };
-		CBF8DD891FFE1DE00007BA0A /* Os-tripole.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6C1FFE1DDC0007BA0A /* Os-tripole.rle */; };
 		CBF8DD8A1FFE1DE00007BA0A /* Os-washingmachine.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6D1FFE1DDC0007BA0A /* Os-washingmachine.rle */; };
 		CBF8DD8B1FFE1DE00007BA0A /* Os-achimsp8.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6E1FFE1DDD0007BA0A /* Os-achimsp8.rle */; };
 		CBF8DD8C1FFE1DE00007BA0A /* Os-almosymmetric.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD6F1FFE1DDD0007BA0A /* Os-almosymmetric.rle */; };
@@ -412,6 +412,7 @@
 		BA744295845C49C691CDCA6B /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		C31BA8AF8C2E4F41881AF0DB /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		C4F4F292C75D42A3BDE8D564 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		CB98AB681FFF129E00FF378E /* Os-tripole.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-tripole.rle"; sourceTree = "<group>"; };
 		CBF8DD641FFE085F0007BA0A /* Still-aircraftcarrier.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Still-aircraftcarrier.rle"; sourceTree = "<group>"; };
 		CBF8DD661FFE1DDC0007BA0A /* Os-toad.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-toad.rle"; sourceTree = "<group>"; };
 		CBF8DD671FFE1DDC0007BA0A /* Os-phoenix1.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-phoenix1.rle"; sourceTree = "<group>"; };
@@ -419,7 +420,6 @@
 		CBF8DD691FFE1DDC0007BA0A /* Os-octagon2.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-octagon2.rle"; sourceTree = "<group>"; };
 		CBF8DD6A1FFE1DDC0007BA0A /* Os-123.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-123.rle"; sourceTree = "<group>"; };
 		CBF8DD6B1FFE1DDC0007BA0A /* Os-beacon.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-beacon.rle"; sourceTree = "<group>"; };
-		CBF8DD6C1FFE1DDC0007BA0A /* Os-tripole.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-tripole.rle"; sourceTree = "<group>"; };
 		CBF8DD6D1FFE1DDC0007BA0A /* Os-washingmachine.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-washingmachine.rle"; sourceTree = "<group>"; };
 		CBF8DD6E1FFE1DDD0007BA0A /* Os-achimsp8.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-achimsp8.rle"; sourceTree = "<group>"; };
 		CBF8DD6F1FFE1DDD0007BA0A /* Os-almosymmetric.rle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Os-almosymmetric.rle"; sourceTree = "<group>"; };
@@ -688,12 +688,12 @@
 				CBF8DD7D1FFE1DDF0007BA0A /* Os-jack.rle */,
 				CBF8DD771FFE1DDE0007BA0A /* Os-monogram.rle */,
 				CBF8DD691FFE1DDC0007BA0A /* Os-octagon2.rle */,
+				CB98AB681FFF129E00FF378E /* Os-tripole.rle */,
 				CBF8DD811FFE1DDF0007BA0A /* Os-pentadecathlon.rle */,
 				CBF8DD671FFE1DDC0007BA0A /* Os-phoenix1.rle */,
 				CBF8DD7B1FFE1DDE0007BA0A /* Os-scotsp5.rle */,
 				CBF8DD7F1FFE1DDF0007BA0A /* Os-skewedquad.rle */,
 				CBF8DD661FFE1DDC0007BA0A /* Os-toad.rle */,
-				CBF8DD6C1FFE1DDC0007BA0A /* Os-tripole.rle */,
 				CBF8DD781FFE1DDE0007BA0A /* Os-tumbler.rle */,
 				CBF8DD711FFE1DDD0007BA0A /* Os-twoeaters.rle */,
 				CBF8DD681FFE1DDC0007BA0A /* Os-unix.rle */,
@@ -1251,7 +1251,6 @@
 				CBF8DD8A1FFE1DE00007BA0A /* Os-washingmachine.rle in Resources */,
 				CBF8DD941FFE1DE00007BA0A /* Os-monogram.rle in Resources */,
 				CBF8DD921FFE1DE00007BA0A /* Os-figureeight.rle in Resources */,
-				CBF8DD891FFE1DE00007BA0A /* Os-tripole.rle in Resources */,
 				CBF8DD8D1FFE1DE00007BA0A /* Os-bipole.rle in Resources */,
 				CBF8DD931FFE1DE00007BA0A /* Os-griddleandblocks.rle in Resources */,
 				5CD1E2B4A3B64F92B879FB1B /* FontAwesome.ttf in Resources */,
@@ -1260,6 +1259,7 @@
 				CBF8DD831FFE1DE00007BA0A /* Os-toad.rle in Resources */,
 				CBF8DD901FFE1DE00007BA0A /* Os-4boats.rle in Resources */,
 				CBF8DD8E1FFE1DE00007BA0A /* Os-twoeaters.rle in Resources */,
+				CB98AB691FFF129F00FF378E /* Os-tripole.rle in Resources */,
 				1973F6D07EB4480B89B0F693 /* MaterialIcons.ttf in Resources */,
 				CBF8DD9E1FFE1DE00007BA0A /* Os-pentadecathlon.rle in Resources */,
 				CBF8DD861FFE1DE00007BA0A /* Os-octagon2.rle in Resources */,

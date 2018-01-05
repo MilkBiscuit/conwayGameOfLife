@@ -14,10 +14,8 @@ function ReadRleFile(path) {
         const array = info.match(regex);
         const x = array[0].substring(2);
         const y = array[1].substring(2);
-        console.log('x is ' + x);
-        console.log('y is ' + y);
 
-        const pattern = ReadPattern(textByLine[textByLine.length - 1], 3, 3);
+        const pattern = ReadPattern(textByLine[textByLine.length - 1], x, y);
 
         resolve(pattern);
       })
