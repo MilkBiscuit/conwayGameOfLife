@@ -18,11 +18,10 @@ class Home extends React.Component {
   }
 
   onSaved() {
-
   }
 
   onAbout() {
-
+    Actions.about();
   }
 
   render() {
