@@ -77,7 +77,6 @@ class Game extends React.Component {
       </Container>
     );
   }
-
 }
 
 export default Game;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
-import { ListItem, Text } from 'native-base';
+import { Text } from 'native-base';
 import { Actions } from 'react-native-router-flux';
 import { ReadRleFile } from '../patterns';
 import { formatPatternName } from '../utils';

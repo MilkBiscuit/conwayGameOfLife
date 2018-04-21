@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from 'react-native';
+import { Platform, Slider, StyleSheet } from 'react-native';
 import { Button, Text, View } from 'native-base';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
@@ -49,6 +49,7 @@ class BottomControlPanel extends React.Component {
             value={1}
             onValueChange={speed => this.props.speedChanged(speed)}
             style={styles.slider}
+            thumbTintColor='black'
           />
         </View>
         <Button iconRight transparent onPress={this.props.homePressed}>
@@ -60,25 +61,25 @@ class BottomControlPanel extends React.Component {
   }
 }
 
-const styles = {
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-around',
     paddingLeft: 12,
-    paddingRight: 12
+    paddingRight: 12,
+    backgroundColor: 'white'
   },
   sliderContainer: {
-    height: 42,
+    height: (Platform.OS === 'ios') ? 42 : 40,
     flexDirection: 'row',
     alignItems: 'center',
   },
   slider: {
-    height: 10,
+    height: (Platform.OS === 'ios') ? 10 : 40,
     width: 150,
-    margin: 10
+    margin: (Platform.OS === 'ios') ? 10 : 0
   }
-
-};
+});
 
 export { BottomControlPanel };

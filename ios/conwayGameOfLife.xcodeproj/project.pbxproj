@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -95,8 +96,6 @@
 		CB98ABB11FFF158300FF378E /* Os-achimsp4.rle in Resources */ = {isa = PBXBuildFile; fileRef = CB98ABB01FFF158300FF378E /* Os-achimsp4.rle */; };
 		CB98ABB41FFF18C200FF378E /* Os-cousins.rle in Resources */ = {isa = PBXBuildFile; fileRef = CB98ABB21FFF18C200FF378E /* Os-cousins.rle */; };
 		CB98ABB51FFF18C200FF378E /* Os-jack.rle in Resources */ = {isa = PBXBuildFile; fileRef = CB98ABB31FFF18C200FF378E /* Os-jack.rle */; };
-		CBF53A9F1FE9E85A00AC67A1 /* libRNFS.a in Resources */ = {isa = PBXBuildFile; fileRef = CBF53A9A1FE93E5B00AC67A1 /* libRNFS.a */; };
-		CBF53AA01FE9E85A00AC67A1 /* libRNFS.a in Resources */ = {isa = PBXBuildFile; fileRef = CBF53A9C1FE93E5B00AC67A1 /* libRNFS.a */; };
 		CBF8DD831FFE1DE00007BA0A /* Os-toad.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD661FFE1DDC0007BA0A /* Os-toad.rle */; };
 		CBF8DD841FFE1DE00007BA0A /* Os-phoenix1.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD671FFE1DDC0007BA0A /* Os-phoenix1.rle */; };
 		CBF8DD851FFE1DE00007BA0A /* Os-unix.rle in Resources */ = {isa = PBXBuildFile; fileRef = CBF8DD681FFE1DDC0007BA0A /* Os-unix.rle */; };
@@ -1339,8 +1338,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF53A9F1FE9E85A00AC67A1 /* libRNFS.a in Resources */,
-				CBF53AA01FE9E85A00AC67A1 /* libRNFS.a in Resources */,
 				CB98AB9D1FFF143900FF378E /* Space-biclock.rle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,

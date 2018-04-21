@@ -1,6 +1,6 @@
 import React from 'react';
 import { ListView, View } from 'react-native';
-import { Container, Content, List, Text } from 'native-base';
+import { Container, Content, Text } from 'native-base';
 import { PatternItem } from './components';
 import { convertFileArrayToMap } from './utils';
 

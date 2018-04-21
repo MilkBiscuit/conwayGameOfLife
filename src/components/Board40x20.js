@@ -1,4 +1,5 @@
 import React from 'react';
+import { Platform } from 'react-native';
 import { View } from 'native-base';
 import { getAliveNeighbourNum } from '../utils';
 import { Row40 } from './Row40';
@@ -8,7 +9,7 @@ const colNum = 40;
 const wholeGrid = new Array(rowNum);
 const neighbourNumArray = new Array(rowNum);
 const items = [];
-const intervals = [400, 200, 50];
+const intervals = (Platform.OS === 'ios') ? [400, 200, 50] : [1000, 500, 200];
 let intervalId;
 let sameNumber = 0;
 

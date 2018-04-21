@@ -19,6 +19,7 @@ class Cell extends React.Component {
     if (this.state.selected !== nextState.selected) {
       return true;
     }
+
     return false;
   }
 
