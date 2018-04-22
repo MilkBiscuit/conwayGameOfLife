@@ -1,3 +1,4 @@
+import { Platform } from 'react-native';
 import {
   containsEmptyRowAtEnd,
   getLastCharacter,
@@ -6,8 +7,8 @@ import {
   removeLastCharacter
 } from '../utils';
 
-const rowNum = 20;
-const colNum = 40;
+const rowNum = (Platform.OS === 'ios') ? 20 : 10;
+const colNum = (Platform.OS === 'ios') ? 40 : 20;
 const wholeGrid = new Array(rowNum);
 
 function initGrid() {
@@ -60,8 +61,8 @@ export const ReadPattern = (pattern, x, y) => {
   initGrid();
 
   // Update whole grid array value
-  const rowOffset = Math.floor((20 - y) / 2);
-  const colOffset = Math.floor((40 - x) / 2);
+  const rowOffset = Math.floor((rowNum - y) / 2);
+  const colOffset = Math.floor((colNum - x) / 2);
   let i = rowOffset;
   for (const gridString of gridStrings) {
     const len = gridString.length;

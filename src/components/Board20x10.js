@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListView } from 'react-native';
+import { ListView, Platform } from 'react-native';
 import { View } from 'native-base';
 import { getAliveNeighbourNum } from '../utils';
 import { RowOfCells } from './RowOfCells';
@@ -7,7 +7,7 @@ import { RowOfCells } from './RowOfCells';
 const wholeGrid = new Array(10);
 const neighbourNumArray = new Array(10);
 const items = [];
-const intervals = [400, 200, 50];
+const intervals = (Platform.OS === 'ios') ? [400, 200, 50] : [1000, 500, 200];
 let intervalId;
 let sameNumber = 0;
 

@@ -25,15 +25,15 @@ function readRleFolderAndroid(resolve, reject) {
       reject();
     });
 
-  RNFS.readFileAssets('os_1beacon.rle', 'utf8')
-    .then((results) => {
-      // console.log('results 222 are ' + results);
-      const rleResults = results.filter(result => result.name.endsWith('.rle'));
+  // RNFS.readFileAssets('os_1beacon.rle', 'utf8')
+  //   .then((results) => {
+  //     // console.log('results 222 are ' + results);
+  //     const rleResults = results.filter(result => result.name.endsWith('.rle'));
 
-      if (rleResults) {
-        resolve(rleResults);
-      }
-    });
+  //     if (rleResults) {
+  //       resolve(rleResults);
+  //     }
+  //   });
 }
 
 function readRleFolderIos(resolve, reject) {
