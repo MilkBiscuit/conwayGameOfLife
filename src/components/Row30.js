@@ -2,16 +2,17 @@ import React from 'react';
 import { View } from 'react-native';
 import { Cell } from './Cell';
 
-class Row40 extends React.Component {
+class Row30 extends React.Component {
 
-  // shouldComponentUpdate(nextProps, nextState) {
-  //   if (this.props.rowValue !== nextProps.rowValue
-  //     || this.state !== nextState) {
-  //     return true;
-  //   }
+  shouldComponentUpdate(nextProps) {
+    for (let i = 0; i < 30; i++) {
+      if (this.props.rowValue[i] !== nextProps.rowValue[i]) {
+        return true;
+      }
+    }
 
-  //   return false;
-  // }
+    return false;
+  }
 
   render() {
     const onSelect = (index, selected) => {
@@ -102,36 +103,6 @@ class Row40 extends React.Component {
         <Cell
           value={rowValue[29]} height={height} onSelect={(selected) => onSelect(29, selected)}
         />
-        <Cell
-          value={rowValue[30]} height={height} onSelect={(selected) => onSelect(30, selected)}
-        />
-        <Cell
-          value={rowValue[31]} height={height} onSelect={(selected) => onSelect(31, selected)}
-        />
-        <Cell
-          value={rowValue[32]} height={height} onSelect={(selected) => onSelect(32, selected)}
-        />
-        <Cell
-          value={rowValue[33]} height={height} onSelect={(selected) => onSelect(33, selected)}
-        />
-        <Cell
-          value={rowValue[34]} height={height} onSelect={(selected) => onSelect(34, selected)}
-        />
-        <Cell
-          value={rowValue[35]} height={height} onSelect={(selected) => onSelect(35, selected)}
-        />
-        <Cell
-          value={rowValue[36]} height={height} onSelect={(selected) => onSelect(36, selected)}
-        />
-        <Cell
-          value={rowValue[37]} height={height} onSelect={(selected) => onSelect(37, selected)}
-        />
-        <Cell
-          value={rowValue[38]} height={height} onSelect={(selected) => onSelect(38, selected)}
-        />
-        <Cell
-          value={rowValue[39]} height={height} onSelect={(selected) => onSelect(39, selected)}
-        />
       </View>
     );
   }
@@ -145,4 +116,4 @@ const styles = {
   }
 };
 
-export { Row40 };
+export { Row30 };

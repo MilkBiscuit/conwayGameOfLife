@@ -1,7 +1,8 @@
 import React from 'react';
+import { Platform } from 'react-native';
 import { Container, Content, Footer } from 'native-base';
 import { Actions } from 'react-native-router-flux';
-import { Board40x20, BottomControlPanel } from './components';
+import { Board30x15, Board40x20, BottomControlPanel } from './components';
 
 class Game extends React.Component {
 
@@ -47,23 +48,42 @@ class Game extends React.Component {
     this.setState({ playPressed: null });
   }
 
-  render() {
-    const playing = this.state.playPressed != null;
+  renderBoard() {
     let gridArray;
     if (this.props.grid) {
       gridArray = this.props.grid;
     }
 
+    if (Platform.OS === 'ios') {
+      return (
+        <Board40x20
+          gridArray={gridArray}
+          play={this.state.playPressed}
+          nextPressed={this.state.nextPressed}
+          speed={this.state.speed}
+          gameOver={this.onGameOver.bind(this)}
+        />
+      );
+    }
+
+    return (
+      <Board30x15
+        gridArray={gridArray}
+        play={this.state.playPressed}
+        nextPressed={this.state.nextPressed}
+        speed={this.state.speed}
+        gameOver={this.onGameOver.bind(this)}
+      />
+    );
+  }
+
+  render() {
+    const playing = this.state.playPressed != null;
+
     return (
       <Container>
         <Content>
-          <Board40x20
-            gridArray={gridArray}
-            play={this.state.playPressed}
-            nextPressed={this.state.nextPressed}
-            speed={this.state.speed}
-            gameOver={this.onGameOver.bind(this)}
-          />
+          {this.renderBoard()}
         </Content>
         <Footer>
           <BottomControlPanel
