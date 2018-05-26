@@ -4,14 +4,15 @@ import { Cell } from './Cell';
 
 class Row40 extends React.Component {
 
-  // shouldComponentUpdate(nextProps, nextState) {
-  //   if (this.props.rowValue !== nextProps.rowValue
-  //     || this.state !== nextState) {
-  //     return true;
-  //   }
+  shouldComponentUpdate(nextProps) {
+    for (let i = 0; i < 40; i++) {
+      if (this.props.rowValue[i] !== nextProps.rowValue[i]) {
+        return true;
+      }
+    }
 
-  //   return false;
-  // }
+    return false;
+  }
 
   render() {
     const onSelect = (index, selected) => {

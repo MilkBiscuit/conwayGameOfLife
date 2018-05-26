@@ -2,6 +2,7 @@ import React from 'react';
 import { ListView, View } from 'react-native';
 import { Cell } from './Cell';
 
+// This class is not used because performance of hard code is better than listview
 const RowOfCells = (props) => {
   const onSelect = (index, selected) => {
     props.onSelect(index, selected);

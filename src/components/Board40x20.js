@@ -128,20 +128,6 @@ class Board40x20 extends React.Component {
     }, INTERVALS[speed]);
   }
 
-  renderRow(item) {
-    const onSelect = (rowId, colId, selected) => {
-      wholeGrid[rowId][colId] = selected ? 1 : 0;
-    };
-
-    return (
-      <Row40
-        rowId={item.index}
-        rowValue={item.value}
-        onSelect={(colId, selected) => onSelect(item.index, colId, selected)}
-      />
-    );
-  }
-
   render() {
     const onSelect = (rowId, colId, selected) => {
       wholeGrid[rowId][colId] = selected ? 1 : 0;
@@ -152,102 +138,102 @@ class Board40x20 extends React.Component {
         <View style={styles.topBorder} />
         <Row40
           rowId={0}
-          rowValue={items[0].value}
+          rowValue={items[0].value.slice()}
           onSelect={(colId, selected) => onSelect(0, colId, selected)}
         />
         <Row40
           rowId={1}
-          rowValue={items[1].value}
+          rowValue={items[1].value.slice()}
           onSelect={(colId, selected) => onSelect(1, colId, selected)}
         />
         <Row40
           rowId={2}
-          rowValue={items[2].value}
+          rowValue={items[2].value.slice()}
           onSelect={(colId, selected) => onSelect(2, colId, selected)}
         />
         <Row40
           rowId={3}
-          rowValue={items[3].value}
+          rowValue={items[3].value.slice()}
           onSelect={(colId, selected) => onSelect(3, colId, selected)}
         />
         <Row40
           rowId={4}
-          rowValue={items[4].value}
+          rowValue={items[4].value.slice()}
           onSelect={(colId, selected) => onSelect(4, colId, selected)}
         />
         <Row40
           rowId={5}
-          rowValue={items[5].value}
+          rowValue={items[5].value.slice()}
           onSelect={(colId, selected) => onSelect(5, colId, selected)}
         />
         <Row40
           rowId={6}
-          rowValue={items[6].value}
+          rowValue={items[6].value.slice()}
           onSelect={(colId, selected) => onSelect(6, colId, selected)}
         />
         <Row40
           rowId={7}
-          rowValue={items[7].value}
+          rowValue={items[7].value.slice()}
           onSelect={(colId, selected) => onSelect(7, colId, selected)}
         />
         <Row40
           rowId={8}
-          rowValue={items[8].value}
+          rowValue={items[8].value.slice()}
           onSelect={(colId, selected) => onSelect(8, colId, selected)}
         />
         <Row40
           rowId={9}
-          rowValue={items[9].value}
+          rowValue={items[9].value.slice()}
           onSelect={(colId, selected) => onSelect(9, colId, selected)}
         />
         <Row40
           rowId={10}
-          rowValue={items[10].value}
+          rowValue={items[10].value.slice()}
           onSelect={(colId, selected) => onSelect(10, colId, selected)}
         />
         <Row40
           rowId={11}
-          rowValue={items[11].value}
+          rowValue={items[11].value.slice()}
           onSelect={(colId, selected) => onSelect(11, colId, selected)}
         />
         <Row40
           rowId={12}
-          rowValue={items[12].value}
+          rowValue={items[12].value.slice()}
           onSelect={(colId, selected) => onSelect(12, colId, selected)}
         />
         <Row40
           rowId={13}
-          rowValue={items[13].value}
+          rowValue={items[13].value.slice()}
           onSelect={(colId, selected) => onSelect(13, colId, selected)}
         />
         <Row40
           rowId={14}
-          rowValue={items[14].value}
+          rowValue={items[14].value.slice()}
           onSelect={(colId, selected) => onSelect(14, colId, selected)}
         />
         <Row40
           rowId={15}
-          rowValue={items[15].value}
+          rowValue={items[15].value.slice()}
           onSelect={(colId, selected) => onSelect(15, colId, selected)}
         />
         <Row40
           rowId={16}
-          rowValue={items[16].value}
+          rowValue={items[16].value.slice()}
           onSelect={(colId, selected) => onSelect(16, colId, selected)}
         />
         <Row40
           rowId={17}
-          rowValue={items[17].value}
+          rowValue={items[17].value.slice()}
           onSelect={(colId, selected) => onSelect(17, colId, selected)}
         />
         <Row40
           rowId={18}
-          rowValue={items[18].value}
+          rowValue={items[18].value.slice()}
           onSelect={(colId, selected) => onSelect(18, colId, selected)}
         />
         <Row40
           rowId={19}
-          rowValue={items[19].value}
+          rowValue={items[19].value.slice()}
           onSelect={(colId, selected) => onSelect(19, colId, selected)}
         />
       </View>
