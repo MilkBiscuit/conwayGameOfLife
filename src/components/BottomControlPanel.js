@@ -43,12 +43,12 @@ class BottomControlPanel extends React.Component {
         <View style={styles.sliderContainer} >
           <Text>Speed</Text>
           <Slider
+            style={styles.slider}
             step={1}
             minimumValue={0}
             maximumValue={2}
             value={1}
             onValueChange={speed => this.props.speedChanged(speed)}
-            style={styles.slider}
             thumbTintColor='black'
           />
         </View>
@@ -71,14 +71,13 @@ const styles = StyleSheet.create({
     backgroundColor: 'white'
   },
   sliderContainer: {
-    height: (Platform.OS === 'ios') ? 42 : 40,
+    height: 42,
     flexDirection: 'row',
     alignItems: 'center',
   },
   slider: {
-    height: (Platform.OS === 'ios') ? 10 : 40,
     width: 150,
-    margin: (Platform.OS === 'ios') ? 10 : 0
+    margin: 10
   }
 });
 
