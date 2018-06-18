@@ -219,7 +219,7 @@ class Board30x15 extends React.Component {
 const styles = {
   container: {
     flex: 1,
-    paddingTop: 12,
+    paddingTop: 40,
     alignItems: 'center'
   },
   topBorder: {

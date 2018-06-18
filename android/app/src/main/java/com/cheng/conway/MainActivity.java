@@ -1,4 +1,4 @@
-package com.conwaygameoflife;
+package com.cheng.conway;
 
 import com.facebook.react.ReactActivity;
 

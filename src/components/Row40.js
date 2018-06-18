@@ -141,8 +141,7 @@ class Row40 extends React.Component {
 const styles = {
   row: {
     flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'center'
+    flexDirection: 'row'
   }
 };
 

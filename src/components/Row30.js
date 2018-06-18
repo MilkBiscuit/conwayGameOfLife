@@ -112,7 +112,6 @@ const styles = {
   row: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'center'
   }
 };
 
