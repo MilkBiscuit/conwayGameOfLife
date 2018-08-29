@@ -137,6 +137,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-vector-icons')
     compile project(':react-native-fs')
     implementation project(':react-native-fs')
     implementation project(':react-native-vector-icons')
